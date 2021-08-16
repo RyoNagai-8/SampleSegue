@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E08B08BB26CAA03900FF4209 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08B08BA26CAA03900FF4209 /* PageViewController.swift */; };
 		E095CC7826C18ABB003024A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095CC7726C18ABB003024A9 /* AppDelegate.swift */; };
 		E095CC7A26C18ABB003024A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095CC7926C18ABB003024A9 /* SceneDelegate.swift */; };
 		E095CC7C26C18ABB003024A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095CC7B26C18ABB003024A9 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E08B08BA26CAA03900FF4209 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		E095CC7426C18ABB003024A9 /* SampleSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E095CC7726C18ABB003024A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E095CC7926C18ABB003024A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				E095CC7726C18ABB003024A9 /* AppDelegate.swift */,
 				E095CC7926C18ABB003024A9 /* SceneDelegate.swift */,
 				E095CC7B26C18ABB003024A9 /* ViewController.swift */,
+				E08B08BA26CAA03900FF4209 /* PageViewController.swift */,
 				E095CC7D26C18ABB003024A9 /* Main.storyboard */,
 				E095CC8326C18ABC003024A9 /* Assets.xcassets */,
 				E095CC8526C18ABC003024A9 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E095CC7C26C18ABB003024A9 /* ViewController.swift in Sources */,
+				E08B08BB26CAA03900FF4209 /* PageViewController.swift in Sources */,
 				E095CC7826C18ABB003024A9 /* AppDelegate.swift in Sources */,
 				E095CC7A26C18ABB003024A9 /* SceneDelegate.swift in Sources */,
 				E095CC8226C18ABB003024A9 /* SampleSegue.xcdatamodeld in Sources */,
