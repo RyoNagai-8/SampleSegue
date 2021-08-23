@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        segueButton.setTitle("segue", for: .normal)
     }
     @IBAction func pressButton(_ sender: Any) {
     }
