@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         segueButton.setTitle("segue", for: .normal)
     }
     @IBAction func pressButton(_ sender: Any) {
+        print("test")
     }
     
 
