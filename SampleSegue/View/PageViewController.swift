@@ -13,9 +13,17 @@ class PageViewController: UIPageViewController {
         super.viewDidLoad()
         print("PageViewController")
 
+        self.setViewControllers([getFirst()], direction: .forward, animated: true, completion: nil)
         // Do any additional setup after loading the view.
     }
     
+    func getFirst() -> FirstViewController {
+        return storyboard!.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
+        }
+    
+    override func didReceiveMemoryWarning() {
+           super.didReceiveMemoryWarning()
+       }
 
     /*
     // MARK: - Navigation
