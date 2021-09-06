@@ -43,7 +43,7 @@
         <!--Page View Controller-->
         <scene sceneID="NFO-4T-qhj">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="RoD-io-Nks" customClass="PageViewController" customModule="SampleSegue" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="none" id="RoD-io-Nks" customClass="PageViewController" customModule="SampleSegue" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="JbP-a5-Pkx"/>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZsL-0D-Zhv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
