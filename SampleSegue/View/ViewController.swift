@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         print("test")
     }
     
+    @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue) {
+    }
+    
 
 }
 
