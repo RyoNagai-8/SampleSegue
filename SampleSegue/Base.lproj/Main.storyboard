@@ -86,8 +86,18 @@
                     <view key="view" contentMode="scaleToFill" id="n8J-hC-vZ8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gS-ir-xan">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="jJU-Hb-EGw"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="2gS-ir-xan" firstAttribute="centerX" secondItem="n8J-hC-vZ8" secondAttribute="centerX" id="Nma-ee-KER"/>
+                            <constraint firstItem="2gS-ir-xan" firstAttribute="centerY" secondItem="n8J-hC-vZ8" secondAttribute="centerY" id="uki-9R-TLI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C7H-lV-3bb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
