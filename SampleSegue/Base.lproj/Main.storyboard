@@ -24,12 +24,18 @@
                                     <segue destination="RoD-io-Nks" kind="show" identifier="seguePageVC" id="nJI-g8-vfW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxJ-ST-qPw">
+                                <rect key="frame" x="184" y="519" width="31" height="30"/>
+                                <state key="normal" title="計算"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="PxJ-ST-qPw" firstAttribute="top" secondItem="4W1-Tx-gd2" secondAttribute="bottom" constant="56" id="SXl-rt-E8r"/>
                             <constraint firstItem="4W1-Tx-gd2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tu9-PG-DUD"/>
                             <constraint firstItem="4W1-Tx-gd2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ups-sS-5iQ"/>
+                            <constraint firstItem="PxJ-ST-qPw" firstAttribute="leading" secondItem="4W1-Tx-gd2" secondAttribute="leading" id="vhO-Ft-ez4"/>
                         </constraints>
                     </view>
                     <connections>
