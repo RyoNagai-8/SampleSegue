@@ -27,6 +27,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxJ-ST-qPw">
                                 <rect key="frame" x="184" y="519" width="31" height="30"/>
                                 <state key="normal" title="計算"/>
+                                <connections>
+                                    <action selector="pressCalculationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="elk-ve-3Q2"/>
+                                    <segue destination="Rw1-zX-yvW" kind="show" id="zio-4L-RXA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -55,6 +59,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZsL-0D-Zhv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="761" y="78"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="der-0D-YVk">
+            <objects>
+                <viewController id="Rw1-zX-yvW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PYV-Qt-1mu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CsK-Su-3ch">
+                                <rect key="frame" x="159" y="81" width="97" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ap0-8k-XMZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CsK-Su-3ch" firstAttribute="top" secondItem="ap0-8k-XMZ" secondAttribute="top" constant="81" id="82z-L8-xvQ"/>
+                            <constraint firstItem="CsK-Su-3ch" firstAttribute="leading" secondItem="ap0-8k-XMZ" secondAttribute="leading" constant="159" id="JOQ-bz-bc8"/>
+                            <constraint firstItem="CsK-Su-3ch" firstAttribute="centerX" secondItem="PYV-Qt-1mu" secondAttribute="centerX" id="vIz-A4-aRo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="FwT-FY-alP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iJH-Ep-43C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="761" y="866"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="rHg-rQ-LXq">

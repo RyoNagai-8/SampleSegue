@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     @IBAction func pressButton(_ sender: Any) {
         print("test")
     }
+    @IBAction func pressCalculationButton(_ sender: Any) {
+    }
     
     @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue) {
         print("myUnwindAction")
