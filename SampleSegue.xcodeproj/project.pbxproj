@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95DDD6B826F0BC4A003F52E7 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DDD6B726F0BC4A003F52E7 /* UIViewController.swift */; };
 		E04E32C626DBB4B300F4D501 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E32C526DBB4B300F4D501 /* FirstViewController.swift */; };
 		E04E32C826DBB4CF00F4D501 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E32C726DBB4CF00F4D501 /* SecondViewController.swift */; };
 		E04E32CA26DBB4F000F4D501 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E32C926DBB4F000F4D501 /* ThirdViewController.swift */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95DDD6B726F0BC4A003F52E7 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		E04E32C526DBB4B300F4D501 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E04E32C726DBB4CF00F4D501 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E04E32C926DBB4F000F4D501 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				E095CC7B26C18ABB003024A9 /* ViewController.swift */,
-				95DDD6B726F0BC4A003F52E7 /* UIViewController.swift */,
 				E08B08BA26CAA03900FF4209 /* PageViewController.swift */,
 				E04E32C526DBB4B300F4D501 /* FirstViewController.swift */,
 				E04E32C726DBB4CF00F4D501 /* SecondViewController.swift */,
@@ -170,7 +167,6 @@
 				E04E32C826DBB4CF00F4D501 /* SecondViewController.swift in Sources */,
 				E095CC7A26C18ABB003024A9 /* SceneDelegate.swift in Sources */,
 				E04E32CA26DBB4F000F4D501 /* ThirdViewController.swift in Sources */,
-				95DDD6B826F0BC4A003F52E7 /* UIViewController.swift in Sources */,
 				E095CC8226C18ABB003024A9 /* SampleSegue.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
