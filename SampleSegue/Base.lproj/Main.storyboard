@@ -68,26 +68,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CsK-Su-3ch">
-                                <rect key="frame" x="159" y="81" width="97" height="34"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CsK-Su-3ch">
+                                <rect key="frame" x="20" y="81" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ap0-8k-XMZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
-                            <constraint firstItem="CsK-Su-3ch" firstAttribute="top" secondItem="ap0-8k-XMZ" secondAttribute="top" constant="81" id="82z-L8-xvQ"/>
-                            <constraint firstItem="CsK-Su-3ch" firstAttribute="leading" secondItem="ap0-8k-XMZ" secondAttribute="leading" constant="159" id="JOQ-bz-bc8"/>
-                            <constraint firstItem="CsK-Su-3ch" firstAttribute="centerX" secondItem="PYV-Qt-1mu" secondAttribute="centerX" id="vIz-A4-aRo"/>
+                            <constraint firstItem="CsK-Su-3ch" firstAttribute="trailing" secondItem="PYV-Qt-1mu" secondAttribute="trailingMargin" id="5ao-61-mpZ"/>
+                            <constraint firstItem="CsK-Su-3ch" firstAttribute="top" secondItem="ap0-8k-XMZ" secondAttribute="top" constant="81" id="WWd-3Q-o3U"/>
+                            <constraint firstItem="CsK-Su-3ch" firstAttribute="leading" secondItem="PYV-Qt-1mu" secondAttribute="leadingMargin" id="qPi-Wq-OB9"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FwT-FY-alP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iJH-Ep-43C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="761" y="866"/>
+            <point key="canvasLocation" x="760.86956521739137" y="865.84821428571422"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="rHg-rQ-LXq">
