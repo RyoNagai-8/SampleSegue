@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="761" y="78"/>
         </scene>
-        <!--View Controller-->
+        <!--Calculation View Controller-->
         <scene sceneID="der-0D-YVk">
             <objects>
-                <viewController id="Rw1-zX-yvW" sceneMemberID="viewController">
+                <viewController id="Rw1-zX-yvW" customClass="CalculationViewController" customModule="SampleSegue" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PYV-Qt-1mu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

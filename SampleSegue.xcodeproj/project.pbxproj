@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		959D816B26F4A45200A094D6 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959D816A26F4A45200A094D6 /* CalculationViewController.swift */; };
 		E04E32C626DBB4B300F4D501 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E32C526DBB4B300F4D501 /* FirstViewController.swift */; };
 		E04E32C826DBB4CF00F4D501 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E32C726DBB4CF00F4D501 /* SecondViewController.swift */; };
 		E04E32CA26DBB4F000F4D501 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E32C926DBB4F000F4D501 /* ThirdViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		959D816A26F4A45200A094D6 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
 		E04E32C526DBB4B300F4D501 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E04E32C726DBB4CF00F4D501 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E04E32C926DBB4F000F4D501 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				E095CC7B26C18ABB003024A9 /* ViewController.swift */,
+				959D816A26F4A45200A094D6 /* CalculationViewController.swift */,
 				E08B08BA26CAA03900FF4209 /* PageViewController.swift */,
 				E04E32C526DBB4B300F4D501 /* FirstViewController.swift */,
 				E04E32C726DBB4CF00F4D501 /* SecondViewController.swift */,
@@ -164,6 +167,7 @@
 				E08B08BB26CAA03900FF4209 /* PageViewController.swift in Sources */,
 				E095CC7826C18ABB003024A9 /* AppDelegate.swift in Sources */,
 				E04E32C626DBB4B300F4D501 /* FirstViewController.swift in Sources */,
+				959D816B26F4A45200A094D6 /* CalculationViewController.swift in Sources */,
 				E04E32C826DBB4CF00F4D501 /* SecondViewController.swift in Sources */,
 				E095CC7A26C18ABB003024A9 /* SceneDelegate.swift in Sources */,
 				E04E32CA26DBB4F000F4D501 /* ThirdViewController.swift in Sources */,
