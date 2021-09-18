@@ -83,6 +83,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FwT-FY-alP"/>
+                    <connections>
+                        <outlet property="ScoreNumber" destination="CsK-Su-3ch" id="LQw-Nx-RyY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iJH-Ep-43C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
