@@ -14,6 +14,7 @@ class CalculationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        ScoreNumber.text = "1"
         // Do any additional setup after loading the view.
     }
     
