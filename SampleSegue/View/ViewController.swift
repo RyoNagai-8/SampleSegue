@@ -17,9 +17,10 @@ class ViewController: UIViewController {
         segueButton.setTitle("segue", for: .normal)
     }
     @IBAction func pressButton(_ sender: Any) {
-        print("test")
+        print("pressButton")
     }
     @IBAction func pressCalculationButton(_ sender: Any) {
+        print("pressCalculationButton")
     }
     
     @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue) {
