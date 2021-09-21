@@ -10,6 +10,7 @@ import UIKit
 class CalculationViewController: UIViewController {
 
     @IBOutlet weak var ScoreNumber: UITextField!
+    var number: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
