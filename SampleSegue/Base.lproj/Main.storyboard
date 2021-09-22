@@ -70,16 +70,33 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CsK-Su-3ch">
                                 <rect key="frame" x="20" y="81" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="fnv-cv-WcM"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="getNumbers:" destination="Rw1-zX-yvW" eventType="editingDidEnd" id="0DJ-tr-kPP"/>
+                                </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcC-6z-xdo">
+                                <rect key="frame" x="133" y="192" width="149" height="109"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="保存">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ap0-8k-XMZ"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
-                            <constraint firstItem="CsK-Su-3ch" firstAttribute="trailing" secondItem="PYV-Qt-1mu" secondAttribute="trailingMargin" id="5ao-61-mpZ"/>
-                            <constraint firstItem="CsK-Su-3ch" firstAttribute="top" secondItem="ap0-8k-XMZ" secondAttribute="top" constant="81" id="WWd-3Q-o3U"/>
-                            <constraint firstItem="CsK-Su-3ch" firstAttribute="leading" secondItem="PYV-Qt-1mu" secondAttribute="leadingMargin" id="qPi-Wq-OB9"/>
+                            <constraint firstItem="CsK-Su-3ch" firstAttribute="top" secondItem="ap0-8k-XMZ" secondAttribute="top" constant="81" id="96t-hR-31c"/>
+                            <constraint firstItem="CsK-Su-3ch" firstAttribute="leading" secondItem="PYV-Qt-1mu" secondAttribute="leadingMargin" id="K4U-4y-2NG"/>
+                            <constraint firstItem="CsK-Su-3ch" firstAttribute="trailing" secondItem="PYV-Qt-1mu" secondAttribute="trailingMargin" id="UBa-KC-sfu"/>
+                            <constraint firstItem="zcC-6z-xdo" firstAttribute="top" secondItem="CsK-Su-3ch" secondAttribute="bottom" constant="77" id="eGS-jB-ule"/>
+                            <constraint firstItem="ap0-8k-XMZ" firstAttribute="bottom" secondItem="zcC-6z-xdo" secondAttribute="bottom" constant="507" id="jEu-Wr-Kif"/>
+                            <constraint firstItem="zcC-6z-xdo" firstAttribute="leading" secondItem="ap0-8k-XMZ" secondAttribute="leading" constant="133" id="koy-0e-9Uq"/>
+                            <constraint firstItem="CsK-Su-3ch" firstAttribute="centerX" secondItem="zcC-6z-xdo" secondAttribute="centerX" id="lw9-hE-D5C"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FwT-FY-alP"/>
