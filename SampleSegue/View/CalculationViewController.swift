@@ -19,8 +19,7 @@ class CalculationViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func getNumbers(_ sender: Any) {
-        print("getNumbers")
+    @IBAction func saveButton(_ sender: Any) {
     }
     
 
