@@ -20,7 +20,6 @@ class CalculationViewController: UIViewController {
     }
     
     @IBAction func saveButton(_ sender: Any) {
-        print("saveButton")
     }
     
 
