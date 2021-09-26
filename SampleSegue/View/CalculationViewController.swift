@@ -24,6 +24,8 @@ class CalculationViewController: UIViewController {
             let score = ScoreNumber.text!
             number = Int(score)!
             print(number + 2)
+        } else{
+            print("other")
         }
     }
     
