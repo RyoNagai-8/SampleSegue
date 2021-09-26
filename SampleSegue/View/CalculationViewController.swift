@@ -20,6 +20,11 @@ class CalculationViewController: UIViewController {
     }
     
     @IBAction func saveButton(_ sender: Any) {
+        if ScoreNumber.text != "" {
+            let score = ScoreNumber.text!
+            number = Int(score)!
+            print(number + 2)
+        }
     }
     
 
