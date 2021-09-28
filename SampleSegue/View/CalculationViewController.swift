@@ -16,7 +16,7 @@ class CalculationViewController: UIViewController {
         super.viewDidLoad()
 
         ScoreNumber.text = "1"
-        // Do any additional setup after loading the view.
+        ScoreNumber.becomeFirstResponder()
     }
     
     @IBAction func saveButton(_ sender: Any) {
