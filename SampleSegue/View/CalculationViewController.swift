@@ -17,6 +17,7 @@ class CalculationViewController: UIViewController {
 
         ScoreNumber.text = "1"
         ScoreNumber.becomeFirstResponder()
+        //ScoreNumber.resignFirstResponder()
     }
     
     @IBAction func saveButton(_ sender: Any) {
@@ -25,8 +26,9 @@ class CalculationViewController: UIViewController {
             number = Int(score)!
             print(number + 2)
         } else{
-            print("other")
+            print("saveButton")
         }
+        
     }
     
 
