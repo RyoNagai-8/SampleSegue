@@ -75,9 +75,6 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                <connections>
-                                    <action selector="getNumbers:" destination="Rw1-zX-yvW" eventType="editingDidEnd" id="0DJ-tr-kPP"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcC-6z-xdo">
                                 <rect key="frame" x="133" y="192" width="149" height="109"/>
