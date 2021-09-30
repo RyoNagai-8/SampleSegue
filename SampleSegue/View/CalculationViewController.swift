@@ -15,7 +15,7 @@ class CalculationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        ScoreNumber.text = "1"
+//        ScoreNumber.text = "1"
         ScoreNumber.becomeFirstResponder()
         //ScoreNumber.resignFirstResponder()
     }
@@ -28,7 +28,7 @@ class CalculationViewController: UIViewController {
         } else{
             print("saveButton")
         }
-        
+        ScoreNumber.resignFirstResponder()
     }
     
 
