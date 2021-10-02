@@ -32,17 +32,26 @@
                                     <segue destination="Rw1-zX-yvW" kind="show" id="zio-4L-RXA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIh-a9-SxY">
+                                <rect key="frame" x="186" y="263" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="PxJ-ST-qPw" firstAttribute="top" secondItem="4W1-Tx-gd2" secondAttribute="bottom" constant="56" id="SXl-rt-E8r"/>
-                            <constraint firstItem="4W1-Tx-gd2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tu9-PG-DUD"/>
-                            <constraint firstItem="4W1-Tx-gd2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ups-sS-5iQ"/>
-                            <constraint firstItem="PxJ-ST-qPw" firstAttribute="leading" secondItem="4W1-Tx-gd2" secondAttribute="leading" id="vhO-Ft-ez4"/>
+                            <constraint firstItem="pIh-a9-SxY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="219" id="6TV-t4-1wu"/>
+                            <constraint firstItem="pIh-a9-SxY" firstAttribute="centerX" secondItem="4W1-Tx-gd2" secondAttribute="centerX" id="9Hc-oc-kEY"/>
+                            <constraint firstItem="pIh-a9-SxY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EKF-gg-gzj"/>
+                            <constraint firstItem="4W1-Tx-gd2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="S9i-8A-zVP"/>
+                            <constraint firstItem="PxJ-ST-qPw" firstAttribute="top" secondItem="4W1-Tx-gd2" secondAttribute="bottom" constant="56" id="c5P-hx-ZM8"/>
+                            <constraint firstItem="4W1-Tx-gd2" firstAttribute="leading" secondItem="PxJ-ST-qPw" secondAttribute="leading" id="coJ-pC-bdF"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="label" destination="pIh-a9-SxY" id="j4o-1Y-sEa"/>
                         <outlet property="segueButton" destination="4W1-Tx-gd2" id="uN1-2z-Qzl"/>
                     </connections>
                 </viewController>

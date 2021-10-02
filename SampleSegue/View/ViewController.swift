@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
     @IBOutlet weak var segueButton: UIButton!
     
     override func viewDidLoad() {
