@@ -11,11 +11,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var segueButton: UIButton!
+    var str = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         segueButton.setTitle("segue", for: .normal)
+        label.text = str
     }
     @IBAction func pressButton(_ sender: Any) {
         print("pressButton")

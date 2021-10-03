@@ -31,6 +31,13 @@ class CalculationViewController: UIViewController {
         ScoreNumber.resignFirstResponder()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "test" {
+            let nextView = segue.destination as! ViewController
+            nextView.str = ScoreNumber.text!
+        }
+    }
+    
 
     /*
     // MARK: - Navigation

@@ -29,7 +29,7 @@
                                 <state key="normal" title="計算"/>
                                 <connections>
                                     <action selector="pressCalculationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="elk-ve-3Q2"/>
-                                    <segue destination="Rw1-zX-yvW" kind="show" id="zio-4L-RXA"/>
+                                    <segue destination="Rw1-zX-yvW" kind="showDetail" identifier="test" id="zio-4L-RXA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIh-a9-SxY">
