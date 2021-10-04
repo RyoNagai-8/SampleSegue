@@ -24,6 +24,7 @@ class CalculationViewController: UIViewController {
         if ScoreNumber.text != "" {
             let score = ScoreNumber.text!
             number = Int(score)!
+            UserDefaults.standard.set(score, forKey: "str")
             print(number + 2)
         } else{
             print("saveButton")
@@ -31,12 +32,12 @@ class CalculationViewController: UIViewController {
         ScoreNumber.resignFirstResponder()
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "test" {
-            let nextView = segue.destination as! ViewController
-            nextView.str = ScoreNumber.text!
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "test" {
+//            let nextView = segue.destination as! ViewController
+//            nextView.str = ScoreNumber.text!
+//        }
+//    }
     
 
     /*
