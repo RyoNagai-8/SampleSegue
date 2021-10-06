@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var segueButton: UIButton!
     //var str = ""
@@ -32,6 +32,6 @@ class ViewController: UIViewController {
         //label.text = "test"
     }
     
-
+    
 }
 
