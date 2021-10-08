@@ -23,7 +23,7 @@ class CalculationViewController: UIViewController {
             number = Int(score)!
             UserDefaults.standard.set(score, forKey: "str")
         } else{
-            print("saveButton")
+            print("else: saveButton")
         }
         ScoreNumber.resignFirstResponder()
     }
