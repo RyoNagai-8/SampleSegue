@@ -11,11 +11,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var segueButton: UIButton!
-    //var str = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         segueButton.setTitle("segue", for: .normal)
         label.text = UserDefaults.standard.string(forKey: "str")
     }
@@ -28,8 +26,6 @@ class ViewController: UIViewController {
     
     @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue) {
         print("myUnwindAction")
-        //label.text = UserDefaults.standard.string(forKey: "str")
-        //label.text = "test"
     }
     
     
