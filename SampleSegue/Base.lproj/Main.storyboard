@@ -26,7 +26,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxJ-ST-qPw">
                                 <rect key="frame" x="184" y="519" width="31" height="30"/>
-                                <state key="normal" title="計算"/>
+                                <state key="normal" title="予算"/>
                                 <connections>
                                     <action selector="pressCalculationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="elk-ve-3Q2"/>
                                     <segue destination="Rw1-zX-yvW" kind="show" identifier="" id="zio-4L-RXA"/>
@@ -134,12 +134,20 @@
                                     <segue destination="Khp-My-VmB" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="dYY-ao-PCk"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HX5-EE-NOb">
+                                <rect key="frame" x="117" y="163" width="180" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="q6N-P3-zUK"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                         <constraints>
-                            <constraint firstItem="VqC-aa-yz9" firstAttribute="centerX" secondItem="moq-ep-VH2" secondAttribute="centerX" id="ElL-gw-FRS"/>
-                            <constraint firstItem="VqC-aa-yz9" firstAttribute="centerY" secondItem="moq-ep-VH2" secondAttribute="centerY" id="p6m-YE-eNI"/>
+                            <constraint firstItem="HX5-EE-NOb" firstAttribute="top" secondItem="q6N-P3-zUK" secondAttribute="top" constant="119" id="2HH-A5-gA2"/>
+                            <constraint firstItem="VqC-aa-yz9" firstAttribute="centerY" secondItem="moq-ep-VH2" secondAttribute="centerY" id="2mE-B0-KAa"/>
+                            <constraint firstItem="HX5-EE-NOb" firstAttribute="centerX" secondItem="VqC-aa-yz9" secondAttribute="centerX" id="e0W-1K-xdW"/>
+                            <constraint firstItem="HX5-EE-NOb" firstAttribute="leading" secondItem="q6N-P3-zUK" secondAttribute="leading" constant="117" id="myD-7D-lUk"/>
+                            <constraint firstItem="HX5-EE-NOb" firstAttribute="centerX" secondItem="moq-ep-VH2" secondAttribute="centerX" id="rag-W4-OY9"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -163,10 +171,18 @@
                                     <segue destination="GtP-ug-KWE" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="x37-kg-e1w"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GUC-jF-REH">
+                                <rect key="frame" x="117" y="163" width="180" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jJU-Hb-EGw"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
+                            <constraint firstItem="GUC-jF-REH" firstAttribute="leading" secondItem="jJU-Hb-EGw" secondAttribute="leading" constant="117" id="FEd-am-HcX"/>
+                            <constraint firstItem="GUC-jF-REH" firstAttribute="top" secondItem="jJU-Hb-EGw" secondAttribute="top" constant="119" id="I0p-um-YNb"/>
+                            <constraint firstItem="GUC-jF-REH" firstAttribute="centerX" secondItem="2gS-ir-xan" secondAttribute="centerX" id="Jcc-lE-sxo"/>
                             <constraint firstItem="2gS-ir-xan" firstAttribute="centerX" secondItem="n8J-hC-vZ8" secondAttribute="centerX" id="Nma-ee-KER"/>
                             <constraint firstItem="2gS-ir-xan" firstAttribute="centerY" secondItem="n8J-hC-vZ8" secondAttribute="centerY" id="uki-9R-TLI"/>
                         </constraints>
@@ -194,12 +210,20 @@
                                     <segue destination="4hc-EN-kwm" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="5pN-Th-hoP"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HMw-9m-6Zx">
+                                <rect key="frame" x="117" y="163" width="180" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WU7-lT-C3C"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
+                            <constraint firstItem="HMw-9m-6Zx" firstAttribute="centerX" secondItem="vdF-eV-7Yd" secondAttribute="centerX" id="0rn-2N-sCF"/>
                             <constraint firstItem="vdF-eV-7Yd" firstAttribute="centerY" secondItem="VAm-2V-dV0" secondAttribute="centerY" id="4fJ-M8-k45"/>
                             <constraint firstItem="vdF-eV-7Yd" firstAttribute="centerX" secondItem="VAm-2V-dV0" secondAttribute="centerX" id="6bb-w0-lLq"/>
+                            <constraint firstItem="HMw-9m-6Zx" firstAttribute="leading" secondItem="WU7-lT-C3C" secondAttribute="leading" constant="117" id="6pa-oX-Xht"/>
+                            <constraint firstItem="HMw-9m-6Zx" firstAttribute="top" secondItem="WU7-lT-C3C" secondAttribute="top" constant="119" id="fKp-Jy-7ca"/>
                         </constraints>
                     </view>
                 </viewController>
