@@ -9,6 +9,8 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    @IBOutlet weak var ThirdTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("ThirdViewController")

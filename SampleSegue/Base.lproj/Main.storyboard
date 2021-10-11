@@ -150,6 +150,9 @@
                             <constraint firstItem="HX5-EE-NOb" firstAttribute="centerX" secondItem="moq-ep-VH2" secondAttribute="centerX" id="rag-W4-OY9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstTextField" destination="HX5-EE-NOb" id="yJN-0w-ofj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9W5-wP-mrE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Khp-My-VmB" userLabel="Exit" sceneMemberID="exit"/>
@@ -187,6 +190,9 @@
                             <constraint firstItem="2gS-ir-xan" firstAttribute="centerY" secondItem="n8J-hC-vZ8" secondAttribute="centerY" id="uki-9R-TLI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="secondTextField" destination="GUC-jF-REH" id="sVY-wP-Eco"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C7H-lV-3bb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="GtP-ug-KWE" userLabel="Exit" sceneMemberID="exit"/>
@@ -226,6 +232,9 @@
                             <constraint firstItem="HMw-9m-6Zx" firstAttribute="top" secondItem="WU7-lT-C3C" secondAttribute="top" constant="119" id="fKp-Jy-7ca"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ThirdTextField" destination="HMw-9m-6Zx" id="ZvX-45-0ID"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EtB-q4-GVR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="4hc-EN-kwm" userLabel="Exit" sceneMemberID="exit"/>
