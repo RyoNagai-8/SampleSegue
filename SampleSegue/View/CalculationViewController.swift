@@ -29,7 +29,6 @@ class CalculationViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        //print("prepare: ",segue.identifier ?? "nil")
         if segue.identifier == "test" {
             let nextView = segue.destination as! ViewController
             nextView.label.text = ScoreNumber.text
