@@ -9,8 +9,6 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-    @IBOutlet weak var firstTextField: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("FirstViewController")
